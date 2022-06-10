@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: column;
+
+    .headerText {
+        justify-content: center;
+        align-content: center;
+        font-size: 18px;
+        height: 30px;
+        animation-name: moveText;
+        animation-duration: 7s;
+        animation-iteration-count: 50;
+
+        @media screen and (max-width: 460px) {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 370px) {
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 330px) {
+            font-size: 12px;
+        }
+
+        @keyframes moveText {
+            from {
+                width: 10%;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+    }
+
+}

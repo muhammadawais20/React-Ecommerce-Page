@@ -1,0 +1,23 @@
+.text {
+        display: flex;
+        color: #a1887f;
+        position: relative;
+        font-size: 6vw;
+        -webkit-text-stroke: 0.3vw #eeeeee;
+        text-transform: capitalize;
+        animation-name: moveTextSlider;
+        animation-duration: 7s;
+        animation-iteration-count: 50;
+
+        @keyframes moveTextSlider {
+            from {
+                width: 20%;
+            }
+
+            to {
+                width: 100%;
+        
+            }
+        }
+    }
+
